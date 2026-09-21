@@ -1,0 +1,11 @@
+district_id,district_name,state,latitude,longitude,population,vulnerability_score,infra_deficit_score,complaint_density,capex_allocated_cr,capex_required_cr
+IND_MP_01,Jabalpur,Madhya Pradesh,23.1815,79.9864,2460000,0.38,0.42,88.5,85.0,92.0
+IND_MP_02,Mandla,Madhya Pradesh,22.5986,80.3712,1054000,0.84,0.89,4.2,12.0,68.0
+IND_MP_03,Dindori,Madhya Pradesh,22.9500,81.0800,704000,0.91,0.94,2.1,8.5,54.0
+IND_MP_04,Bhopal,Madhya Pradesh,23.2599,77.4126,2371000,0.32,0.35,94.2,110.0,115.0
+IND_BR_01,Patna,Bihar,25.5941,85.1376,5838000,0.45,0.48,76.0,140.0,150.0
+IND_BR_02,Kishanganj,Bihar,26.0700,87.9400,1690000,0.86,0.87,6.4,18.0,75.0
+IND_CG_01,Bastar,Chhattisgarh,19.1071,81.9535,834000,0.88,0.92,3.8,14.5,80.0
+IND_CG_02,Raipur,Chhattisgarh,21.2514,81.6296,2160000,0.36,0.39,82.0,95.0,102.0
+IND_MH_01,Gadchiroli,Maharashtra,20.1800,80.0000,1072000,0.82,0.85,5.1,20.0,72.0
+IND_MH_02,Nagpur,Maharashtra,21.1458,79.0882,4653000,0.30,0.33,91.0,130.0,135.0
