@@ -1,0 +1,26 @@
+[
+  {
+    "complaint_id": "CMP-2026-001",
+    "timestamp": "2026-09-08T10:15:00Z",
+    "category": "Water & Sanitation",
+    "location_named": "Sihora, Jabalpur",
+    "latitude": 23.4900,
+    "longitude": 80.1100,
+    "issue_summary": "Primary drinking water well contaminated by seasonal runoff; hand pumps non-functional.",
+    "urgency_level": "Critical",
+    "is_anonymous": true,
+    "tracking_token": "ANON-8F2B14C9"
+  },
+  {
+    "complaint_id": "CMP-2026-002",
+    "timestamp": "2026-09-08T11:42:00Z",
+    "category": "Roads & Transit",
+    "location_named": "Kundam, Jabalpur",
+    "latitude": 23.2000,
+    "longitude": 80.3300,
+    "issue_summary": "Unpaved access road washed out by rains; emergency medical ambulance unable to reach hospital.",
+    "urgency_level": "High",
+    "is_anonymous": false,
+    "tracking_token": "VERIFIED-RESIDENT-01"
+  }
+]
