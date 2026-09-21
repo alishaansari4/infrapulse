@@ -1,0 +1,6 @@
+district_id,district_name,state,latitude,longitude,population,vulnerability_score,infra_deficit_score,complaint_density,capex_allocated_cr,capex_required_cr
+BR_MG_01,Belo Horizonte,Minas Gerais,-19.9167,-43.9345,2520000,0.30,0.34,85.0,75.0,80.0
+BR_MG_02,Vale do Jequitinhonha,Minas Gerais,-16.4333,-42.9833,650000,0.89,0.91,3.5,9.0,52.0
+BR_MG_03,Montes Claros,Minas Gerais,-16.7350,-43.8617,413000,0.62,0.65,34.0,28.0,40.0
+ZA_EC_01,OR Tambo,Eastern Cape,-31.4500,28.7833,1450000,0.92,0.95,4.0,11.0,65.0
+ZA_GP_01,Johannesburg,Gauteng,-26.2041,28.0473,5635000,0.35,0.38,92.0,120.0,125.0
