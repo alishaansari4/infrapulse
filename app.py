@@ -120,17 +120,7 @@ with tab2:
                     st.success("Grievance Successfully Ingested & Anonymized!")
                     st.json(result)
                 except Exception as e:
-                    st.warning(f"Live Gemini API notification: {e}")
-                    st.info("Demonstrating offline deterministic fallback schema (Edge Sanitized):")
-                    st.json({
-                        "category": "Water & Sanitation",
-                        "urgency_level": "Critical",
-                        "location_named": "Mandla",
-                        "issue_summary": "Main drinking water pipeline fractured for 8 months; immediate repair required.",
-                        "detected_language": "Hindi",
-                        "tracking_token": "ANON-9A74E82F",
-                        "privacy_tier": "Zero-Knowledge Whistleblower Mode (Edge Scrubbed)"
-                    })
+                    st.error(f"Processing error: {e}")
                     
     with col2:
         st.info(
