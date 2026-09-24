@@ -32,8 +32,8 @@ def parse_grievance(raw_text: str, is_anonymous: bool = False) -> dict:
     {clean_text}
     """
     
-    # Try preferred flash models
-    candidate_models = ["gemini-1.5-flash", "gemini-2.0-flash", "gemini-2.5-flash"]
+    
+    candidate_models = ["gemini-2.5-flash", "gemini-3.6-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
     parsed = None
 
     for model_name in candidate_models:
@@ -48,8 +48,10 @@ def parse_grievance(raw_text: str, is_anonymous: bool = False) -> dict:
                 )
             )
             parsed = response.parsed.model_dump()
-            break
-        except Exception:
+            if parsed:
+                break
+        except Exception as e:
+            print(f"Model {model_name} failed: {e}")
             continue
             
     # Deterministic resilient fallback if all public endpoints are under 503 spike
